@@ -3,6 +3,7 @@ set_double = set()
 set_decimal = set()
 
 
+# Конвертируем в 10ую систему счисления 
 def convert_into_set_decimal_from_double(set_double):
     for i in set_double:
         set_decimal.add(int(str(i), base=2))
